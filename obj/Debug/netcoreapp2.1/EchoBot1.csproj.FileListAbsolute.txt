@@ -1,0 +1,12 @@
+C:\monStuff\monProjects\ai-hack\EchoBot1\EchoBot1\bin\Debug\netcoreapp2.1\EchoBot1.bot
+C:\monStuff\monProjects\ai-hack\EchoBot1\EchoBot1\bin\Debug\netcoreapp2.1\EchoBot1.deps.json
+C:\monStuff\monProjects\ai-hack\EchoBot1\EchoBot1\bin\Debug\netcoreapp2.1\EchoBot1.runtimeconfig.json
+C:\monStuff\monProjects\ai-hack\EchoBot1\EchoBot1\bin\Debug\netcoreapp2.1\EchoBot1.runtimeconfig.dev.json
+C:\monStuff\monProjects\ai-hack\EchoBot1\EchoBot1\bin\Debug\netcoreapp2.1\EchoBot1.dll
+C:\monStuff\monProjects\ai-hack\EchoBot1\EchoBot1\bin\Debug\netcoreapp2.1\EchoBot1.pdb
+C:\monStuff\monProjects\ai-hack\EchoBot1\EchoBot1\obj\Debug\netcoreapp2.1\EchoBot1.csprojAssemblyReference.cache
+C:\monStuff\monProjects\ai-hack\EchoBot1\EchoBot1\obj\Debug\netcoreapp2.1\EchoBot1.csproj.CoreCompileInputs.cache
+C:\monStuff\monProjects\ai-hack\EchoBot1\EchoBot1\obj\Debug\netcoreapp2.1\EchoBot1.AssemblyInfoInputs.cache
+C:\monStuff\monProjects\ai-hack\EchoBot1\EchoBot1\obj\Debug\netcoreapp2.1\EchoBot1.AssemblyInfo.cs
+C:\monStuff\monProjects\ai-hack\EchoBot1\EchoBot1\obj\Debug\netcoreapp2.1\EchoBot1.dll
+C:\monStuff\monProjects\ai-hack\EchoBot1\EchoBot1\obj\Debug\netcoreapp2.1\EchoBot1.pdb
