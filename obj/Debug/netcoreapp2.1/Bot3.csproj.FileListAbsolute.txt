@@ -1,0 +1,11 @@
+C:\monStuff\monProjects\ai-hack\Bot3\Bot3\bin\Debug\netcoreapp2.1\Bot3.bot
+C:\monStuff\monProjects\ai-hack\Bot3\Bot3\bin\Debug\netcoreapp2.1\Bot3.deps.json
+C:\monStuff\monProjects\ai-hack\Bot3\Bot3\bin\Debug\netcoreapp2.1\Bot3.runtimeconfig.json
+C:\monStuff\monProjects\ai-hack\Bot3\Bot3\bin\Debug\netcoreapp2.1\Bot3.runtimeconfig.dev.json
+C:\monStuff\monProjects\ai-hack\Bot3\Bot3\bin\Debug\netcoreapp2.1\Bot3.dll
+C:\monStuff\monProjects\ai-hack\Bot3\Bot3\bin\Debug\netcoreapp2.1\Bot3.pdb
+C:\monStuff\monProjects\ai-hack\Bot3\Bot3\obj\Debug\netcoreapp2.1\Bot3.csproj.CoreCompileInputs.cache
+C:\monStuff\monProjects\ai-hack\Bot3\Bot3\obj\Debug\netcoreapp2.1\Bot3.AssemblyInfoInputs.cache
+C:\monStuff\monProjects\ai-hack\Bot3\Bot3\obj\Debug\netcoreapp2.1\Bot3.AssemblyInfo.cs
+C:\monStuff\monProjects\ai-hack\Bot3\Bot3\obj\Debug\netcoreapp2.1\Bot3.dll
+C:\monStuff\monProjects\ai-hack\Bot3\Bot3\obj\Debug\netcoreapp2.1\Bot3.pdb

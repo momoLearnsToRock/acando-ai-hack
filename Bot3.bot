@@ -1,0 +1,23 @@
+﻿{
+  "name": "Bot3",
+  "services": [
+    {
+      "type": "endpoint",
+      "name": "development",
+      "endpoint": "http://localhost:3978/api/messages",
+      "appId": "",
+      "appPassword": "",
+      "id": "1"
+    },
+    {
+        "type": "qna",
+        "name": "QnABot",
+        "KBId": "e2fd7b10-89d3-4680-9ad1-e467851a2992",
+        "endpointKey": "eddfcbab-73d4-4ee9-bb34-85eebfa45f01",
+        "hostname": "https://qna1.azurewebsites.net/qnamaker",
+        "id": "2"
+    }
+  ],
+  "padlock": "",
+  "version": "2.0"
+}
