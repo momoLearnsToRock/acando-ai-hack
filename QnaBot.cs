@@ -24,6 +24,7 @@ namespace Bot3
     public class QnaBot : IBot
     {
         private readonly List<QnAMaker> _qnaServices;
+        private TextAnalyser textAnalyser;
         /// <summary>
         /// Initializes a new instance of the class.
         /// </summary>      
@@ -31,6 +32,7 @@ namespace Bot3
         {
             // ...
             _qnaServices = qnaServices;
+            textAnalyser = new TextAnalyser();
         }
 
         /// <summary>
@@ -45,8 +47,13 @@ namespace Bot3
         /// <seealso cref="ConversationState"/>
         public async Task OnTurnAsync(ITurnContext turnContext, CancellationToken cancellationToken = default(CancellationToken))
         {
+            
+            
             if (turnContext.Activity.Type == ActivityTypes.Message)
             {
+                await turnContext.SendActivityAsync(
+                    textAnalyser.GetScore(turnContext.Activity.Text).ToString(),
+                    cancellationToken: cancellationToken);
                 foreach (var qnaService in _qnaServices)
                 {
                     var response = await qnaService.GetAnswersAsync(turnContext);
