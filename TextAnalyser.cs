@@ -12,7 +12,6 @@ namespace Bot3
     public class TextAnalyser
     {
         private const string SubscriptionKey = "05a4fc3fd9654d7ba3fbc2a9f3fda386"; //Insert your Text Anaytics subscription key
-
         /// </summary>
         class ApiKeyServiceClientCredentials : ServiceClientCredentials
         {
@@ -23,6 +22,11 @@ namespace Bot3
             }
         }
 
+        private List<double?> Scores;
+        public TextAnalyser()
+        {
+            Scores = new List<double?>();
+        }
         public double? GetScore(string message)
         {
             ITextAnalyticsClient client = new TextAnalyticsClient(new ApiKeyServiceClientCredentials())
@@ -36,8 +40,14 @@ namespace Bot3
                         {
                           new MultiLanguageInput("en", "0", message)
                         })).Result;
-            return result3.Documents[0].Score;
+            Scores.Add(result3.Documents[0].Score);
+            double avrg = 0;
+            foreach (double score in Scores)
+            {
+                avrg += score;
+            }
+            avrg = avrg / Scores.Count;
+            return avrg;
         }
-
     }
 }
