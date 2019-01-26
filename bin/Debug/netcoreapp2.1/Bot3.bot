@@ -10,12 +10,12 @@
       "id": "1"
     },
     {
-        "type": "qna",
-        "name": "QnABot",
-        "KBId": "e2fd7b10-89d3-4680-9ad1-e467851a2992",
-        "endpointKey": "eddfcbab-73d4-4ee9-bb34-85eebfa45f01",
-        "hostname": "https://qna1.azurewebsites.net/qnamaker",
-        "id": "2"
+      "type": "qna",
+      "name": "QnAforSixthSence",
+      "KBId": "74428463-6964-4652-8103-8fc2f0e805ed",
+      "endpointKey": "e25bd404-d5fe-4523-82d4-76ebf0d2b494",
+      "hostname": "https://qnaforsixthsence.azurewebsites.net/qnamaker",
+      "id": "2"
     }
   ],
   "padlock": "",

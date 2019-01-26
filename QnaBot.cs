@@ -25,6 +25,7 @@ namespace Bot3
     {
         private readonly List<QnAMaker> _qnaServices;
         private TextAnalyser textAnalyser;
+        private static double? avgScore = 0.6;
         /// <summary>
         /// Initializes a new instance of the class.
         /// </summary>      
@@ -47,29 +48,33 @@ namespace Bot3
         /// <seealso cref="ConversationState"/>
         public async Task OnTurnAsync(ITurnContext turnContext, CancellationToken cancellationToken = default(CancellationToken))
         {
-            
-            
             if (turnContext.Activity.Type == ActivityTypes.Message)
             {
-                await turnContext.SendActivityAsync(
-                    textAnalyser.GetScore(turnContext.Activity.Text).ToString(),
-                    cancellationToken: cancellationToken);
-                foreach (var qnaService in _qnaServices)
+                if (avgScore > 0.2)
                 {
-                    var response = await qnaService.GetAnswersAsync(turnContext);
-                    if (response != null && response.Length > 0)
+                    //await textAnalyser.AddScore(turnContext.Activity.Text);
+                    avgScore = textAnalyser.GetScore(turnContext.Activity.Text);
+                    foreach (var qnaService in _qnaServices)
                     {
-                        await turnContext.SendActivityAsync(
-                            response[0].Answer,
-                            cancellationToken: cancellationToken);
-                        return;
+                        var response = await qnaService.GetAnswersAsync(turnContext);
+                        if (response != null && response.Length > 0)
+                        {
+                            await turnContext.SendActivityAsync(
+                                response[0].Answer,
+                                cancellationToken: cancellationToken);
+                            return;
+                        }
                     }
+
+                    var msg = "I'm not sure how i can help you, with that!";
+
+                    await turnContext.SendActivityAsync(msg, cancellationToken: cancellationToken);
+
                 }
-
-                var msg = "No QnA Maker answers were found. This example uses a QnA Maker knowledge base that " +
-                    "focuses on smart light bulbs. Ask the bot questions like 'Why won't it turn on?' or 'I need help'.";
-
-                await turnContext.SendActivityAsync(msg, cancellationToken: cancellationToken);
+                else
+                {
+                    await turnContext.SendActivityAsync("Hand over to human", cancellationToken: cancellationToken);
+                }
             }
             else
             {
