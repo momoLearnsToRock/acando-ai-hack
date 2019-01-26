@@ -26,6 +26,7 @@ namespace Bot3
         public TextAnalyser()
         {
             Scores = new List<double?>();
+            Scores.Add(0.6);
         }
         public double? GetScore(string message)
         {

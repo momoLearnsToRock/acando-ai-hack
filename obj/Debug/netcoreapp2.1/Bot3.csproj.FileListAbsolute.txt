@@ -21,3 +21,4 @@ C:\Users\charbel.kisso\hackFest\acando-ai-hack\bin\Debug\netcoreapp2.1\Bot3.runt
 C:\Users\charbel.kisso\hackFest\acando-ai-hack\bin\Debug\netcoreapp2.1\Bot3.runtimeconfig.dev.json
 C:\Users\charbel.kisso\hackFest\acando-ai-hack\bin\Debug\netcoreapp2.1\Bot3.dll
 C:\Users\charbel.kisso\hackFest\acando-ai-hack\bin\Debug\netcoreapp2.1\Bot3.pdb
+C:\Users\charbel.kisso\hackFest\acando-ai-hack\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs

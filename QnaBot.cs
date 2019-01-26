@@ -50,9 +50,8 @@ namespace Bot3
         {
             if (turnContext.Activity.Type == ActivityTypes.Message)
             {
-                if (avgScore > 0.2)
+                if (avgScore > 0.45)
                 {
-                    //await textAnalyser.AddScore(turnContext.Activity.Text);
                     avgScore = textAnalyser.GetScore(turnContext.Activity.Text);
                     foreach (var qnaService in _qnaServices)
                     {
