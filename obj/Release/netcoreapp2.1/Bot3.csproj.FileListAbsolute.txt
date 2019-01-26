@@ -1,0 +1,13 @@
+C:\Users\charbel.kisso\hackFest\acando-ai-hack\bin\Release\netcoreapp2.1\Bot3.bot
+C:\Users\charbel.kisso\hackFest\acando-ai-hack\bin\Release\netcoreapp2.1\Bot3.deps.json
+C:\Users\charbel.kisso\hackFest\acando-ai-hack\bin\Release\netcoreapp2.1\Bot3.runtimeconfig.json
+C:\Users\charbel.kisso\hackFest\acando-ai-hack\bin\Release\netcoreapp2.1\Bot3.runtimeconfig.dev.json
+C:\Users\charbel.kisso\hackFest\acando-ai-hack\bin\Release\netcoreapp2.1\Bot3.dll
+C:\Users\charbel.kisso\hackFest\acando-ai-hack\bin\Release\netcoreapp2.1\Bot3.pdb
+C:\Users\charbel.kisso\hackFest\acando-ai-hack\obj\Release\netcoreapp2.1\Bot3.csprojAssemblyReference.cache
+C:\Users\charbel.kisso\hackFest\acando-ai-hack\obj\Release\netcoreapp2.1\Bot3.csproj.CoreCompileInputs.cache
+C:\Users\charbel.kisso\hackFest\acando-ai-hack\obj\Release\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\charbel.kisso\hackFest\acando-ai-hack\obj\Release\netcoreapp2.1\Bot3.AssemblyInfoInputs.cache
+C:\Users\charbel.kisso\hackFest\acando-ai-hack\obj\Release\netcoreapp2.1\Bot3.AssemblyInfo.cs
+C:\Users\charbel.kisso\hackFest\acando-ai-hack\obj\Release\netcoreapp2.1\Bot3.dll
+C:\Users\charbel.kisso\hackFest\acando-ai-hack\obj\Release\netcoreapp2.1\Bot3.pdb

@@ -5,5 +5,6 @@
   </PropertyGroup>
   <PropertyGroup>
     <ActiveDebugProfile>Bot3</ActiveDebugProfile>
+    <NameOfLastUsedPublishProfile>Bot320190126113323 - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>
